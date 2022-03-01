@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora Nechan</title>
+        <script src="logic.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="main()">
+        <div id="calculadora">
+            <div id="display">
+                <div id="atual" class="txtdsp">
+                    segura o
+                </div>
+                <div id="resultado" class="txtdsp">
+                    tchan
+                </div>
+            </div>
+            <div id="teclado">
+                <div class="linha">
+                    <div onclick="calc('C')" class="botão grande escuro">C</div>
+                    <div onclick="calc('%')" class="botão escuro">%</div>
+                    <div onclick="calc('/')" class="botão laranja">/</div>
+                </div>
+                <div class="linha">
+                    <div onclick="calc(7)" class="botão ">7</div>
+                    <div onclick="calc(8)" class="botão ">8</div>
+                    <div onclick="calc(9)" class="botão ">9</div>
+                    <div onclick="calc('x')" class="botão laranja">X</div>
+                </div>
+                <div class="linha">
+                    <div onclick="calc(4)" class="botão">4</div>
+                    <div onclick="calc(5)" class="botão">5</div>
+                    <div onclick="calc(6)" class="botão">6</div>
+                    <div onclick="calc('-')" class="botão laranja">-</div>
+                </div>
+                <div class="linha">
+                    <div onclick="calc(1)" class="botão">1</div>
+                    <div onclick="calc(2)" class="botão">2</div>
+                    <div onclick="calc(3)" class="botão">3</div>
+                    <div onclick="calc('+')" class="botão laranja">+</div>
+                </div>
+                <div class="linha">
+                    <div onclick="calc(0)" class="botão grande">0</div>
+                    <div onclick="calc('.')" class="botão">.</div>
+                    <div onclick="calc('=')" class="botão laranja">=</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

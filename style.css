@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#calculadora {
+    background: #303030;
+    height: 100%;
+}
+
+/*ESTILOS DO DISPLAY*/
+#display {
+    height: 5cm;
+}
+
+#atual {
+    height: 50%;
+    
+}
+
+#resultado {
+    height: 50%;
+    text-align: right;
+}
+
+.txtdsp {
+    color: white;
+    font-family: 'impact';
+    font-size: xx-large;
+    padding: 12px 12px;
+}
+
+/*ESTILOS DO TECLADO*/
+#teclado {
+    background: gainsboro;
+    height: 9cm;
+}
+
+.linha {
+    display: flex;
+}
+
+.botão {
+    background: #707070;
+    padding: 0px;
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'impact';
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.botão:hover {
+    background: rgb(184, 184, 184);
+}
+
+.grande {
+    flex: 2;
+}
+
+.escuro {
+    background: #525252;
+}
+
+.laranja {
+    background: #fa9e0c;
+}
